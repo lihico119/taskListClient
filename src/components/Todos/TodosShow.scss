@@ -1,0 +1,30 @@
+.showContainer {
+    width: 100%;
+}
+
+.taskBoxContainer {
+    display: flex;
+}
+
+.taskBoxName {
+    width: 100%;
+}
+
+.taskBoxPicture {
+    max-width: 30%;
+    &>img {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.showTasks {
+    height: 80%;
+    overflow: auto;
+}
+
+.showButtonContainer {
+    height: 20%;
+    text-align: center;
+    width: 100%;
+}
